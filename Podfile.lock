@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: c2698449961e38db576429b681b17b41eda3e66b
+PODS:
+  - BarPod (1.0.0)
+  - FooPod (1.0.0)
+
+DEPENDENCIES:
+  - BarPod (from `../BarPod/`)
+  - FooPod (from `../FooPod/`)
+
+EXTERNAL SOURCES:
+  BarPod:
+    :path: ../BarPod/
+  FooPod:
+    :path: ../FooPod/
+
+SPEC CHECKSUMS:
+  BarPod: 367662549774074b83b9b178bbee3a8d7e900279
+  FooPod: 2db526ddb4517458dc13c7329dd95ed5c7fe669f
+
+PODFILE CHECKSUM: 4e6d82283ff04cdda72ea2f9123e5b9eafd3f320
 
 COCOAPODS: 1.0.1

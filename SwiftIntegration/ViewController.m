@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "FooProclaimer.h"
+#import "BarProclaimer.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,9 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+	[FooProclaimer proclaim];
+	[BarProclaimer proclaim];
 }
 
 
